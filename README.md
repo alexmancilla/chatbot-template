@@ -1,6 +1,6 @@
 # API de Chatbot
 
-Este es un backend FastAPI para una aplicación de chatbot para la Universidad del Sureste de Filipinas (USEP).
+Este es un backend FastAPI para una aplicación de chatbot
 
 ## Configuración
 
