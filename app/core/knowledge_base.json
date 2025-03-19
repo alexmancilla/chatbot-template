@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué es Python?",
+      "answer": "Python es un lenguaje de programación de alto nivel conocido por su legibilidad y versatilidad."
+    },
+    {
+      "question": "¿Qué es NLP?",
+      "answer": "NLP significa Procesamiento de Lenguaje Natural, que es un campo de la IA centrado en la interacción entre computadoras y lenguaje humano."
+    },
+    {
+      "question": "¿Cómo funciona un bot de preguntas y respuestas?",
+      "answer": "Un bot de preguntas y respuestas funciona comparando las consultas del usuario con una base de conocimientos y devolviendo la respuesta más relevante utilizando técnicas como la similitud semántica."
+    },
+    {
+      "question": "¿Qué bibliotecas se utilizan en este bot?",
+      "answer": "Este bot utiliza transformers para el modelo de lenguaje, nltk para el procesamiento de texto y torch para operaciones con tensores."
+    },
+    {
+      "question": "¿Puedo ampliar este bot?",
+      "answer": "Sí, puedes ampliar este bot añadiendo más preguntas a la base de conocimientos o mejorando el algoritmo de coincidencia."
+    },
+    {
+      "question": "¿Cómo puedo añadir más preguntas?",
+      "answer": "Puedes editar el archivo knowledge_base.json para añadir nuevos pares de preguntas y respuestas en español."
+    },
+    {
+      "question": "¿Este bot funciona en español?",
+      "answer": "Sí, este bot está optimizado para funcionar en español, utilizando un modelo multilingüe que entiende y procesa el idioma español correctamente."
+    },
+    {
+      "question": "¿Qué es USEP?",
+      "answer": "USEP (Universidad del Sureste de Filipinas) es una universidad estatal ubicada en la ciudad de Davao, Filipinas."
+    },
+    {
+      "question": "¿Cómo puedo comunicarme con USEP?",
+      "answer": "Puedes comunicarte con USEP a través de su sitio web oficial, por correo electrónico o visitando el campus principal en Davao City."
+    },
+    {
+      "question": "¿Qué programas ofrece USEP?",
+      "answer": "USEP ofrece diversos programas académicos que incluyen ingeniería, tecnología, ciencias, educación, administración de empresas y artes, entre otros."
+    }
+  ]
+} 
