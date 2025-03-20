@@ -1,44 +1,72 @@
 {
   "questions": [
-    {
-      "question": "¿Qué es Python?",
-      "answer": "Python es un lenguaje de programación de alto nivel conocido por su legibilidad y versatilidad."
-    },
-    {
-      "question": "¿Qué es NLP?",
-      "answer": "NLP significa Procesamiento de Lenguaje Natural, que es un campo de la IA centrado en la interacción entre computadoras y lenguaje humano."
-    },
-    {
-      "question": "¿Cómo funciona un bot de preguntas y respuestas?",
-      "answer": "Un bot de preguntas y respuestas funciona comparando las consultas del usuario con una base de conocimientos y devolviendo la respuesta más relevante utilizando técnicas como la similitud semántica."
-    },
-    {
-      "question": "¿Qué bibliotecas se utilizan en este bot?",
-      "answer": "Este bot utiliza transformers para el modelo de lenguaje, nltk para el procesamiento de texto y torch para operaciones con tensores."
-    },
-    {
-      "question": "¿Puedo ampliar este bot?",
-      "answer": "Sí, puedes ampliar este bot añadiendo más preguntas a la base de conocimientos o mejorando el algoritmo de coincidencia."
-    },
-    {
-      "question": "¿Cómo puedo añadir más preguntas?",
-      "answer": "Puedes editar el archivo knowledge_base.json para añadir nuevos pares de preguntas y respuestas en español."
-    },
-    {
-      "question": "¿Este bot funciona en español?",
-      "answer": "Sí, este bot está optimizado para funcionar en español, utilizando un modelo multilingüe que entiende y procesa el idioma español correctamente."
-    },
-    {
-      "question": "¿Qué es USEP?",
-      "answer": "USEP (Universidad del Sureste de Filipinas) es una universidad estatal ubicada en la ciudad de Davao, Filipinas."
-    },
-    {
-      "question": "¿Cómo puedo comunicarme con USEP?",
-      "answer": "Puedes comunicarte con USEP a través de su sitio web oficial, por correo electrónico o visitando el campus principal en Davao City."
-    },
-    {
-      "question": "¿Qué programas ofrece USEP?",
-      "answer": "USEP ofrece diversos programas académicos que incluyen ingeniería, tecnología, ciencias, educación, administración de empresas y artes, entre otros."
-    }
-  ]
-} 
+		{
+			"question": "¿Cómo ingreso a la plataforma SI-EXACTAA?",
+			"answer": "Abre tu navegador preferido e ingresa a la plataforma SI-EXACTAA. En la página principal, localiza y haz clic en el apartado de *'Usuario nuevo'* para iniciar tu registro."
+		},
+		{
+			"question": "¿Cómo registro un nuevo usuario en SI-EXACTAA?",
+			"answer": "Completa los campos solicitados con tu información personal, como nombre completo, correo electrónico, CURP y demás datos requeridos. Verifica que todos los datos sean correctos antes de continuar. Una vez completados los campos, haz clic en *'Registrar'* para crear tu usuario."
+		},
+		{
+			"question": "¿Cómo ingreso al menú de invitado en SI-EXACTAA?",
+			"answer": "Regresa a la página principal de SI-EXACTAA y selecciona la opción *'Invitado'* para acceder a la plataforma."
+		},
+		{
+			"question": "¿Cómo selecciono el apartado de Proceso de Admisión?",
+			"answer": "Una vez dentro de la plataforma, busca en el menú principal el apartado *'Proceso de Admisión'* y haz clic en él para iniciar el proceso de carga de documentación."
+		},
+		{
+			"question": "¿Cómo cargo documentos en SI-EXACTAA?",
+			"answer": "En la sección de carga de documentos, selecciona el tipo de archivo que deseas subir. Haz clic en *'Cargar archivo'* y elige el documento correspondiente desde tu dispositivo. Si necesitas reemplazar un archivo previamente subido, simplemente vuelve a seleccionar el nuevo archivo y cárgalo. *Importante:* Verifica el estado del archivo; si se cargó correctamente, el botón de estado cambiará de *rojo* a *verde*."
+		},
+		{
+			"question": "¿Cómo finalizo el proceso en SI-EXACTAA?",
+			"answer": "Una vez que hayas subido todos los documentos requeridos y verificado el cambio de estado, haz clic en el botón *'Finalizar'*. Espera aproximadamente *2 minutos* mientras el sistema procesa la información."
+		},
+		{
+			"question": "¿Cómo descargo la constancia en SI-EXACTAA?",
+			"answer": "Una vez completado el proceso, aparecerá la opción para descargar tu constancia. Haz clic en *'Descargar constancia'* y guarda el archivo en tu dispositivo para futuras referencias."
+		},
+		{
+			"question": "¿Qué hago si no puedo cargar un archivo en SI-EXACTAA?",
+			"answer": "Asegúrate de que el archivo cumpla con los requisitos de formato y tamaño. Si el problema persiste, intenta reemplazar el archivo o contacta al soporte técnico."
+		},
+		{
+			"question": "¿Qué hago si el botón de estado no cambia a verde?",
+			"answer": "Verifica que el archivo se haya cargado correctamente. Si el problema persiste, intenta cargar el archivo nuevamente o contacta al soporte técnico."
+		},
+		{
+			"question": "¿Cuánto tiempo debo esperar después de finalizar el proceso?",
+			"answer": "Debes esperar aproximadamente *2 minutos* mientras el sistema procesa la información. Una vez completado, podrás descargar tu constancia."
+		},
+		{
+			"question": "¿Hay alguna forma de subir documentos si la plataforma no me lo permite?",
+			"answer": "Se ingresa a la plataforma de SI-EXACTAA con usuario y contraseña. Si no tienes una, ingresa como usuario nuevo y se te proporcionará un usuario y contraseña. Abre el menú de invitado y entra al apartado de *'Proceso de Admisión'*. Si no tienes una solicitud, carga la información que aparecerá; de lo contrario, carga la documentación correspondiente."
+		},
+		{
+			"question": "¿Cómo cambiar el tipo de valoración en la generación de cita?",
+			"answer": "Esta información no se obtiene de la plataforma SI-EXACTAA, sino de la plataforma Venus, la cual es manejada por el departamento de admisión. Puedes contactarlos en la extensión 2321."
+		},
+		{
+			"question": "¿Cuál es el procedimiento para subir documentación para admisión?",
+			"answer": "Se ingresa a la plataforma de SI-EXACTAA con usuario y contraseña. Si no tienes una, ingresa como usuario nuevo y se te proporcionará un usuario y contraseña. Abre el menú de invitado y entra al apartado de *'Proceso de Admisión'*. Si no tienes una solicitud, carga la información que aparecerá; de lo contrario, carga la documentación correspondiente."
+		},
+		{
+			"question": "¿Por qué no me aparece la opción de solicitud en la plataforma de SI-EXACTAA?",
+			"answer": "Estábamos haciendo mantenimiento en el servidor. Por favor, intenta nuevamente más tarde."
+		},
+		{
+			"question": "¿Se puede acudir cualquier día para hacer cita?",
+			"answer": "La cita se requiere hacer en la plataforma Venus con el departamento de admisión."
+		},
+		{
+			"question": "¿Qué papeles debo presentar para el proceso de admisión en USICAMM?",
+			"answer": "Se ingresa a la plataforma de SI-EXACTAA con usuario y contraseña. Si no tienes una, ingresa como usuario nuevo y se te proporcionará un usuario y contraseña. Abre el menú de invitado y entra al apartado de *'Proceso de Admisión'*. Si no tienes una solicitud, carga la información que aparecerá; de lo contrario, carga la documentación correspondiente."
+		},
+		{
+			"question": "¿Dónde puedo obtener un ejemplo de la carta de experiencia docente?",
+			"answer": "Si eres foránea y seleccionaste Tlaxcala como sede, comunícate con el departamento de admisión en la extensión 2321 para obtener un ejemplo de la carta de experiencia docente."
+		}
+	]
+}

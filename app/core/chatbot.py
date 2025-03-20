@@ -89,7 +89,7 @@ def process_message(message: str) -> str:
         closest_index, similarity = find_closest_question(message)
         
         # Si la similitud es muy baja, podríamos no tener una buena respuesta
-        if similarity < 0.5:
+        if similarity < 0.3:
             return f"Lo siento, no tengo información suficiente para responder esa pregunta. ¿Podrías reformularla?"
         
         # Devolver la respuesta correspondiente
