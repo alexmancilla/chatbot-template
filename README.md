@@ -13,6 +13,19 @@ Este es un backend FastAPI para una aplicación de chatbot
 5. Copiar `.env.example` a `.env` y ajustar la configuración según sea necesario
 6. Iniciar el servidor de desarrollo: `uvicorn app.main:app --reload`
 
+## Uso con Docker
+
+1. Asegúrate de tener Docker instalado en tu sistema.
+2. Construir la imagen de Docker:
+   ```bash
+   docker build -t chatbot-api .
+   ```
+3. Ejecutar el contenedor:
+   ```bash
+   docker run -d -p 8000:8000 --env-file .env chatbot-api
+   ```
+4. Accede a la API en: `http://localhost:8000`
+
 ## Documentación de la API
 
 Cuando el servidor está en ejecución, puedes acceder a la documentación de la API autogenerada en:
@@ -35,4 +48,4 @@ Cuando el servidor está en ejecución, puedes acceder a la documentación de la
 
 ## Licencia
 
-[MIT](https://choosealicense.com/licenses/mit/) 
+[MIT](https://choosealicense.com/licenses/mit/)
